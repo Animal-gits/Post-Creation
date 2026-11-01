@@ -1,12 +1,12 @@
 import dotenv from 'dotenv';
 dotenv.config();
 
-if (!process.env.GEMINI_API_KEY) {
-  console.error(
-    'Warning: GEMINI_API_KEY is not set. Please set it in the .env file.'
-  );
-  process.exit(1);
-}
+// if (!process.env.GEMINI_API_KEY) {
+//   console.error(
+//     'Warning: GEMINI_API_KEY is not set. Please set it in the .env file.'
+//   );
+//   process.exit(1);
+// }
 
 if (!process.env.JWT_SECRET) {
   console.error(

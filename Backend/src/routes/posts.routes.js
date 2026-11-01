@@ -10,7 +10,7 @@ import {
   toggleLike,
   uploadImage,
 } from '../controllers/posts.controller.js';
-import { protect } from '../middleware/auth.middleware.js';
+import protect from '../middleware/auth.middleware.js';
 import { createPostValidator, validateRequest } from '../validation/post.validator.js';
 
 const router = express.Router();

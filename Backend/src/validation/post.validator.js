@@ -38,7 +38,7 @@ const validateRequest = (req, res, next) => {
   next();
 };
 
-export default {
+export {
   createPostValidator,
   validateRequest
 };

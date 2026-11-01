@@ -1,6 +1,6 @@
 import express from 'express';
 import { addComment, getPostComments, deleteComment } from '../controllers/comment.controller.js';
-import { protect } from '../middleware/auth.middleware.js';
+import protect from '../middleware/auth.middleware.js';
 import { addCommentValidator, validateRequest } from '../validation/comment.validator.js';
 
 const router = express.Router();
